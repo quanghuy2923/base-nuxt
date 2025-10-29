@@ -6,9 +6,9 @@
   <WhyChoose />
 </template>
 <script setup lang="ts">
-  import Header from '~/components/Landing/Header.vue'
-  import Hero from '~/components/Landing/Hero.vue'
-  import Stat from '~/components/Landing/Stat.vue'
-  import TrustedBy from '~/components/Landing/TrustedBy.vue'
-  import WhyChoose from '~/components/Landing/WhyChoose.vue'
+  import Header from '~/components/Landing/Header/index.vue'
+  import Hero from '~/components/Landing/Hero/index.vue'
+  import Stat from '~/components/Landing/Stat/index.vue'
+  import TrustedBy from '~/components/Landing/TrustedBy/index.vue'
+  import WhyChoose from '~/components/Landing/WhyChoose/index.vue'
 </script>

@@ -1,8 +1,8 @@
 <script setup lang="ts">
   import Hero from '~/components/Landing/Hero.vue'
-  import TrustedBy from '~/components/Landing/TrustedBy.vue'
-  import Stat from '~/components/Landing/Stat.vue'
-  import WhyChoose from '~/components/Landing/WhyChoose.vue'
+  import TrustedBy from '~/components/Landing/TrustedBy/index.vue'
+  import Stat from '~/components/Landing/Stat/index.vue'
+  import WhyChoose from '~/components/Landing/WhyChoose/index.vue'
   definePageMeta({
     layout: 'landing'
   })

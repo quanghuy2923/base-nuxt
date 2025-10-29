@@ -1,7 +1,9 @@
 <script setup lang="ts">
-  import logo from '~/assets/images/logo.svg'
-  import call from '~/assets/images/call.svg'
+  import logo from '@/assets/images/logo.svg'
+  import call from '@/assets/images/call.svg'
   import Button from '@/components/ui/Button/index.vue'
+  import NavigationMenu from '@/components/ui/NavigationMenu/index.vue'
+
   const items = ref([
     {
       label: 'Giới thiệu',
@@ -58,11 +60,7 @@
       <h1 class="font-bold text-2xl lg:text-3xl">IFRS</h1>
     </div>
 
-    <UNavigationMenu
-      :items="items"
-      content-orientation="vertical"
-      class="-mx-2.5 hidden md:block"
-    />
+    <NavigationMenu :items="items" content-orientation="vertical" class="-mx-2.5 hidden md:block" />
 
     <div class="flex justify-end">
       <div class="hidden lg:flex items-center gap-x-6">

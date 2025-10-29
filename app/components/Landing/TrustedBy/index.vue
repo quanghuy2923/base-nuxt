@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  import Badge from '@/components/ui/Badge'
+  import Badge from '~/components/ui/Badge/index.vue'
 </script>
 
 <template>
