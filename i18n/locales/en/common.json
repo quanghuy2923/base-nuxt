@@ -1,0 +1,7 @@
+{
+  "common": {
+    "table": {
+      "rowsSelected": "{selected} / {total} rows selected"
+    }
+  }
+}

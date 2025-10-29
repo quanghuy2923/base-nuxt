@@ -1,0 +1,7 @@
+{
+  "common": {
+    "table": {
+      "rowsSelected": "Đã chọn {selected} / {total} dòng"
+    }
+  }
+}
